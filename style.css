@@ -1,0 +1,985 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* all in */
+body {
+	font-family: 'Open Sans', sans-serif;
+  }
+
+/* INDEX PAGE */
+/* ======================
+----- FIRST SECTION------
+=======================*/
+
+.first-section {
+	background-image: url(../asset/herosection.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 20% 0px 20% 0px;
+    margin-top: 3%;
+}
+
+.first-section .text-content {
+	text-align: right;
+	color: #fff;
+}
+
+.first-section .text-content h2 {
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.first-section .text-content .line-dec {
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 25px 0px 25px auto;
+}
+
+.first-section .text-content span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+
+
+/* ======================
+---- SECOND SECTION------
+=======================*/
+.second-section {
+	background-image: url(../asset/section2.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 3% 0px;
+}
+
+
+.second-section .left-image img {
+    width: 100%;
+}
+
+.second-section .right-text {
+	display: inline;
+    text-align: left;
+}
+
+.second-section em {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+}
+
+.second-section h4 {
+    margin-top: 10%;
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.second-section p {
+	color: black;
+	margin-top: 15px;
+}
+
+.second-section .primary-button1 a {
+	text-decoration: none;
+	padding: 10px 18px;
+	display: inline-block;
+	border-radius: 24px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	background-color: black;
+	color: #fff;
+}
+
+.second-section .primary-button1 a:hover{
+	color: #5A91D7;
+	background-color: #eaeaea;
+}
+
+/* ======================
+---- THIRD SECTION------
+=======================*/
+.third-section {
+	background-image: url(../asset/section3.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 7% 0px;
+}
+
+
+.third-section .left-image img {
+    width: 100%;
+    margin-top: 26%;
+}
+
+.third-section .right-text {
+	display: inline;
+    text-align: left;
+}
+
+.third-section em {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.third-section h4 {
+    margin-top: 20%;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.third-section p {
+	color: white;
+	margin-top: 15px;
+}
+
+.third-section .primary-button a {
+	text-decoration: none;
+	padding: 10px 18px;
+	display: inline-block;
+	border-radius: 24px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	background-color: #fff;
+	color: #5A91D7;
+}
+
+.third-section .primary-button a:hover {
+	color: black;
+	background-color: #22304d;
+}
+
+/* ======================
+---- FOURTH SECTION -----
+=======================*/
+
+.fourth-section {
+	background-image: url(../asset/section4.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.fourth-section .left-text h4{
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.fourth-section .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.fourth-section .portfolio-item img {
+	width: 100%;
+	overflow: hidden;
+    margin-top: 5%;
+}
+
+.fourth-section .first-item .text {
+	background-color: #f4f4f4;
+}
+
+.fourth-section .second-item .text {
+	background-color: #eaeaea;
+}
+
+.fourth-section .third-item .text {
+	background-color: #dedede;
+}
+
+.fourth-section .portfolio-item .text {
+	padding: 20px 25px;
+}
+
+.fourth-section .portfolio-item .text span {
+	font-size: 13px;
+	color: #7a7a7a;
+}
+
+.fourth-section .portfolio-item .text h4 {
+	font-size: 17px;
+	color: #343434;
+	font-weight: 700;
+}
+
+
+/* ======================
+----- FOOTER SECTION ----
+=======================*/
+
+footer {
+	text-align: center;
+	background-image: url(../asset/section5.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 11% 0px 4% 0px;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+footer ul li a {
+	font-size: 16px;
+	color: #415b90;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+footer ul li a:hover {
+	background-color: #22304d;
+	color: #415b90;
+	transition: all 0.3s;
+}
+
+footer p {
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+
+footer em {
+	font-style: normal;
+	font-weight: 600;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #3CF;
+}
+
+
+
+/* AMBULANCE PAGE */
+/* ======================
+----- FIRST FORM SECTION ----
+=======================*/
+.firstform-section {
+	background-image: url(../asset/section1form.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;	
+}
+
+.firstform-section .center-text {
+	display: inline;
+    text-align: center;
+	margin-top: 7%;
+}
+
+
+
+.firstform-section h4 {
+   
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.firstform-section p {
+	color: black;
+	margin-top: 15px;
+}
+
+/* ======================
+----- SECOND FORM SECTION ----
+=======================*/
+.secondform-section {
+	background-image: url(../asset/section2form.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-top: 13%;
+	padding-bottom: 16%;
+	
+}
+
+.secondform-section .service-item {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.secondform-section .service-item .icon img {
+	width: 10%;
+	overflow: hidden;
+}
+
+.secondform-section h4 {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.secondform-section p {
+	font-size: 16px;
+	color: #fff;
+	
+}
+
+/* ======================
+----- THIRD FORM SECTION ----
+=======================*/
+.thirdform-section {
+	background-image: url(../asset/section3form.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 5%;	
+}
+
+.form-control{
+	border-radius: 50px; /* Membuat sudut melengkung */
+	font-family: 'Arial', sans-serif; /* Mengganti font */
+	color: #333333; /* Mengubah warna font */
+	padding: 10px; /* Memberikan padding di dalam textarea */
+	border: 1px solid #cccccc; /* Warna dan style border */
+}
+
+.form-control::placeholder {
+	color: #999999;
+}
+
+.thirdform-section .custom-textarea {
+	border-radius: 10px; /* Membuat sudut melengkung */
+	font-family: 'Arial', sans-serif; /* Mengganti font */
+	color: #333333; /* Mengubah warna font */
+	padding: 10px; /* Memberikan padding di dalam textarea */
+	border: 1px solid #cccccc; /* Warna dan style border */
+  }
+  
+  .thirdform-section .custom-textarea::placeholder {
+	color: #999999; /* Mengubah warna placeholder */
+  }
+  
+  .btn.btn-primary.px-4 {
+	background-color: #5A91D7; /* Ubah warna latar belakang tombol */
+	color: white; /* Ubah warna teks tombol */
+	border: none; /* Hapus border */
+  }
+  
+  .btn.btn-primary.px-4:hover {
+	background-color: black; /* Ubah warna latar belakang saat tombol di-hover */
+  }
+
+/* ======================
+----- FOURTH FORM SECTION ----
+=======================*/
+.fourthform-section {
+	text-align: center;
+	background-image: url(../asset/section4form.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 11% 0px 4% 0px;
+}
+
+.fourthform-section ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.fourthform-section ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.fourthform-section ul li a {
+	font-size: 16px;
+	color: #415b90;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.fourthform-section ul li a:hover {
+	background-color: #22304d;
+	color: #415b90;
+	transition: all 0.3s;
+}
+
+.fourthform-section p {
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+
+.fourthform-section em {
+	font-style: normal;
+	font-weight: 600;
+}
+
+.fourthform-section a {
+	color: #fff;
+}
+
+.fourthform-section a:hover {
+	color: #3CF;
+}
+
+
+/* ABOUT PAGE */
+/* ======================
+----- FIRST ABOUT SECTION ----
+=======================*/
+.firstabout-section{
+	margin-top: 1%;
+	text-align: center;
+	background-image: url(../asset/section1about.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+
+
+/* ======================
+----- SECOND ABOUT SECTION ----
+=======================*/
+.secondabout-section P{
+	margin-top: 0.5%;
+    font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	color: #575757;
+}
+
+.secondabout-section p a{
+	color: #575757;
+}
+
+/* ======================
+----- THIRD ABOUT SECTION ----
+=======================*/
+.thirdabout-section h1{
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 38px;
+	
+}
+
+
+
+/* ======================
+----- FOURTH ABOUT SECTION ----
+=======================*/
+.fourthabout-section{
+	margin-top: 1%;
+	font-size: 17px;
+}
+
+/* ======================
+----- FIVTH ABOUT SECTION ----
+=======================*/
+.fivthabout-section{
+	margin-top: 1%;
+	font-size: 17px;
+}
+
+/* ======================
+----- SIXTH ABOUT SECTION ----
+=======================*/
+.sixthabout-section{
+	margin-top: 1%;
+	font-size: 17px;
+}
+
+
+
+/* ======================
+----- FOURTH FORM SECTION ----
+=======================*/
+
+.seventhabout-section{
+	margin-top: 1%;
+	text-align: center;
+	background-image: url(../asset/section2about.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-top: 8%;
+}
+
+.seventhabout-section ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.seventhabout-section ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.seventhabout-section ul li a {
+	font-size: 16px;
+	color: #415b90;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-top: 100%;
+	
+}
+
+.seventhabout-section ul li a:hover {
+	background-color: #22304d;
+	color: #415b90;
+	transition: all 0.3s;
+}
+
+.seventhabout-section p {
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+
+.seventhabout-section em {
+	font-style: normal;
+	font-weight: 600;
+}
+
+.seventhabout-section a {
+	color: #fff;
+}
+
+.seventhabout-section a:hover {
+	color: #3CF;
+}
+
+
+
+/* PROGRAM PAGE */
+/* ======================
+---- FIRST PROGRAM SECTION -----
+=======================*/
+.firstprogram-section {
+	background-image: url(../asset/sectionawalprogram.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 10%;
+}
+
+.firstprogram-section .center-text {
+	display: inline;
+    text-align: center;
+	margin-top: 7%;
+}
+
+.firstprogram-section h4 {
+   
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.firstprogram-section p {
+	color: black;
+	margin-top: 15px;
+}
+
+
+/* ======================
+---- SECOND PROGRAM SECTION -----
+=======================*/
+.secondprogram-section {
+	background-image: url(../asset/section1program.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 10%;
+	align-items: center;
+}
+
+.secondprogram-section .left-text h4{
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.secondprogram-section .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.secondprogram-section .portfolio-item img {
+	width: 100%;
+	overflow: hidden;
+    margin-top: 5%;
+}
+
+.secondprogram-section .first-item .text {
+	background-color: #f4f4f4;
+}
+
+.secondprogram-section .second-item .text {
+	background-color: #eaeaea;
+}
+
+.secondprogram-section .third-item .text {
+	background-color: #dedede;
+}
+
+.secondprogram-section .portfolio-item .text {
+	padding: 20px 25px;
+}
+
+.secondprogram-section .portfolio-item .text span {
+	font-size: 13px;
+	color: #7a7a7a;
+}
+
+.secondprogram-section .portfolio-item .text h4 {
+	font-size: 17px;
+	color: #343434;
+	font-weight: 700;
+}
+
+/* ======================
+---- THIRD PROGRAM SECTION -----
+=======================*/
+.thirdprogram-section {
+	background-image: url(../asset/section2program.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 15%;
+	padding-top: 15%;
+}
+
+.thirdprogram-section .left-text h4{
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.thirdprogram-section .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.thirdprogram-section .portfolio-item img {
+	width: 100%;
+	overflow: hidden;
+    margin-top: 5%;
+}
+
+.thirdprogram-section .first-item .text {
+	background-color: #f4f4f4;
+}
+
+.thirdprogram-section .second-item .text {
+	background-color: #eaeaea;
+}
+
+.thirdprogram-section .third-item .text {
+	background-color: #dedede;
+}
+
+.thirdprogram-section .portfolio-item .text {
+	padding: 20px 25px;
+}
+
+.thirdprogram-section .portfolio-item .text span {
+	font-size: 13px;
+	color: #7a7a7a;
+}
+
+.thirdprogram-section .portfolio-item .text h4 {
+	font-size: 17px;
+	color: #343434;
+	font-weight: 700;
+}
+
+/* ======================
+---- FOURTH PROGRAM SECTION -----
+=======================*/
+.fourthprogram-section {
+	background-image: url(../asset/section3program.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+
+.fourthprogram-section .left-text h4{
+	color: black;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.fourthprogram-section .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.fourthprogram-section .portfolio-item img {
+	width: 100%;
+	overflow: hidden;
+    margin-top: 5%;
+}
+
+.fourthprogram-section .first-item .text {
+	background-color: #f4f4f4;
+}
+
+.fourthprogram-section .second-item .text {
+	background-color: #eaeaea;
+}
+
+.fourthprogram-section .third-item .text {
+	background-color: #dedede;
+}
+
+.fourthprogram-section .portfolio-item .text {
+	padding: 20px 25px;
+}
+
+.fourthprogram-section .portfolio-item .text span {
+	font-size: 13px;
+	color: #7a7a7a;
+}
+
+.fourthprogram-section .portfolio-item .text h4 {
+	font-size: 17px;
+	color: #343434;
+	font-weight: 700;
+}
+
+/* ======================
+-----  FIVTH PROGRAM SECTION ----
+=======================*/
+.fivthprogram-section {
+	text-align: center;
+	background-image: url(../asset/section4form.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 11% 0px 4% 0px;
+}
+
+.fivthprogram-section ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.fivthprogram-section ul li {
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.fivthprogram-section ul li a {
+	font-size: 16px;
+	color: #415b90;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.fivthprogram-section ul li a:hover {
+	background-color: #22304d;
+	color: #415b90;
+	transition: all 0.3s;
+}
+
+.fivthprogram-section p {
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+	color: #fff;
+}
+
+.fivthprogram-section em {
+	font-style: normal;
+	font-weight: 600;
+}
+
+.fivthprogram-section a {
+	color: #fff;
+}
+
+.fivthprogram-section a:hover {
+	color: #3CF;
+}
+
+
+/* ======================
+-- RESPONSIVE SECTION ---
+=======================*/
+@media (max-width: 1200px){
+
+	.fourth-section .portfolio-items  {
+		margin-right: 15px;
+	}	
+}
+
+@media (max-width: 992px){
+
+	.third-section .right-text {
+		text-align: left;
+		margin-bottom: 70px;
+	}
+	
+	.second-section .right-text {
+		text-align: left;
+	}
+
+}
+
+@media (max-width: 850px){
+
+
+	.first-section {
+		padding: 150px 0px 200px 0px;
+	}
+
+	.first-section .text-content {
+		text-align: center;
+	}
+
+	.first-section .text-content .line-dec {
+		margin: 25px auto;
+	}
+
+	.second-section {
+		padding: 50px 0px 0px 0px;
+	}
+
+
+	.third-section {
+		margin-top: -100px;
+		text-align: center;
+		padding: 250px 0px 150px 0px;
+	}
+
+	.third-section .right-text {
+		text-align: left;
+	}
+
+	.fourth-section {
+		padding: 150px 0px;
+	}
+
+	.fourth-section .col-md-3 {
+		padding-left: 15px;
+		padding-right: 30px;
+	}
+
+	.fourth-section .portfolio-item {
+		margin-bottom: 30px;
+	}
+
+	.fourth-section .send-to-portfolio {
+		padding:  46% 0px;
+	}
+
+	.secondabout-section {
+		margin-right: 110px;
+	}
+
+	.thirdabout-section {
+		margin-right: 150px;
+
+	}
+
+	.seventhabout-section {
+		padding: 20%;
+		
+	}
+
+	iframe {
+		width: 300px;
+		height: 300px;
+		margin-top: 100px;
+		margin-right: 100px;
+	}
+}
+
+
+@media (max-width: 590px){
+
+	.third-section {
+		text-align: center;
+	}
+
+	iframe {
+		width: 300px;
+		height: 300px;
+		margin-top: 100px;
+		margin-right: 100px;
+	}
+
+}
