@@ -137,27 +137,27 @@
       <form onsubmit="sendMessage()">
         <!-- masuk nama -->
         <div class="mb-3">
-          <textarea id="name" class="custom-textarea" placeholder="masukan nama pemanggil... " cols="70" rows="1" required></textarea>
+          <textarea id="name" class="custom-textarea" placeholder="masukan nama pemanggil... " cols="50" rows="1" required></textarea>
         </div>
         <!-- masuk nomor -->
         <div class="mb-3">
-          <textarea id="number" class="custom-textarea" placeholder="masukan nomor pemanggil... " cols="70" rows="1" required></textarea>
+          <textarea id="number" class="custom-textarea" placeholder="masukan nomor pemanggil... " cols="50" rows="1" required></textarea>
         </div>
         <!-- masuk alamat -->
         <div class="mb-3">
-          <textarea id="address" class="custom-textarea" placeholder="masukan alamat anda... " cols="70" rows="3" required></textarea>
+          <textarea id="address" class="custom-textarea" placeholder="masukan alamat anda... " cols="50" rows="3" required></textarea>
         </div>
         <!-- deskripsi kejadian -->
         <div class="mb-3">
-          <textarea id="description" class="custom-textarea" placeholder="masukan deskripsi kejadian... " cols="70" rows="5" required></textarea>
+          <textarea id="description" class="custom-textarea" placeholder="masukan deskripsi kejadian... " cols="50" rows="5" required></textarea>
         </div>
         <!-- kondisi pasien -->
         <div class="mb-3">
-          <textarea id="condition" class="custom-textarea" placeholder="masukan kondisi pasien... " cols="70" rows="3" required></textarea>
+          <textarea id="condition" class="custom-textarea" placeholder="masukan kondisi pasien... " cols="50" rows="3" required></textarea>
         </div>
         <!-- catatan tambahan -->
         <div class="mb-3">
-          <textarea id="notes" class="custom-textarea" placeholder="masukan catatan tambahan... " cols="70" rows="3" required></textarea>
+          <textarea id="notes" class="custom-textarea" placeholder="masukan catatan tambahan... " cols="50" rows="3" required></textarea>
         <!-- tombolnya -->
         </div>
        
@@ -192,20 +192,9 @@
     <!-- akhir section kelima form -->
 
     <!-- java untuk API KE WHATSAPP -->
-
-    <script>
-      function sendMessage() {
-          const name = document.getElementById("name").value;
-          const number = document.getElementById("number").value;
-          const address = document.getElementById("address").value;
-          const description = document.getElementById("description").value;
-          const condition = document.getElementById("condition").value;
-          const notes = document.getElementById("notes").value;
-          
-          const url = "https://api.whatsapp.com/send?phone=6281387725578&text=Permisi%20pak%2C%20saya%20ingin%20meminta%20bantuan%20ambulans%20dengan%20nama%20*"+ name +"*%20dengan%20no.%20Telp%20*"+ number +"*%20saya%20sekarang%20berada%20di%20*"+ address +"*%20dengan%20keterangan%20pasien*"+ description +"*%20dan%20kondisinya%20pasien*"+ condition +"*%20serta%20catatan%20tambahannya%20yaitu%20*"+ notes* +""
-          window.open(url);
-      }
-    </script>
+    <script src="formulir.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     </body>
     </html>
     
